@@ -1,0 +1,18 @@
+Features:
+1.HomeScreen:
+	(Link to login and signup pages)
+2.SignUp:
+	(Email,Username,Password)
+	Hashing the password
+3.LogIn:
+	(Email,Password)
+4.Chat:(Group Chat)
+ 	(ChatBox:
+		*(Username,TimeOfMessage,Message)
+	OnlineUsers:
+		*(Username,LoginTime)
+	)
+5.RealTimeChat:
+	(Automatic Refresh)
+6.LogOut:
+	(Redirects to HomeScreen)

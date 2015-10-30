@@ -1,0 +1,43 @@
+.chatBox {
+
+	border: 1px solid #000;
+	width: 500px;
+	margin-left:400px;
+	
+}
+.chatBox .main {
+	background-image:url(main.jpg);
+	height: 300px;
+	padding: 5px;
+	overflow: auto;
+}
+
+/* message box area */
+.chatBox .messageBox {
+	padding: 7px 5px 5px 5px;
+}
+#onlineusers{
+	font-family:tahoma;
+	font-size:14;
+	color:yellow;
+	border:1px teal solid;
+	width:200px;
+	height:362px;
+	overflow:scroll;
+	float:right;
+}
+#ChatText{
+	font: 14px arial, sans-serif;
+	width: 400px;
+	height: 32px;
+background-color:white;
+}
+#newMessageSend {
+	height: 36px;
+	width: 80px;
+background-color:#e1f5a9;
+}
+.chatBox .messageBox .left {
+	float: left;
+	width: 410px;
+}
